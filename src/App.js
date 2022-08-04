@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Testimonio from './componets/Testimonio';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='contenedor-principal'>
+        <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
+        <Testimonio 
+          nombre="Shaw Wang"
+          pais="Singapour"
+          imagen="2"
+          cargo="Ingeniera de Software"
+          empresa="Amazon"
+          testimonio="Ingeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de Software"  />
+        
+        <Testimonio 
+          nombre="Emma Bostian"
+          pais="Suecia"
+          imagen="1"
+          cargo="Ingeniera de Software"
+          empresa="Spotify"
+          testimonio="Ingeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de Software" />
+
+        <Testimonio 
+          nombre="Sara Thurma"
+          pais="Nigeria"
+          imagen="3"
+          cargo="Ingeniera de Software"
+          empresa="Chatdesk"
+          testimonio="Ingeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de SoftwareIngeniera de Software" />
+
+      </div>
     </div>
   );
 }
